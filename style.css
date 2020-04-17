@@ -1,0 +1,37 @@
+h1 {
+	color: 	#B22222;
+	width: auto;
+}
+
+.degrade{
+display: inline-block;
+background-image:-moz-linear-gradient(30deg, red, white);
+background-image:-webkit-linear-gradient(30deg, white, red);
+background-image:-o-linear-gradient(30deg, white, red);
+background-image:linear-gradient(60deg, white, red);
+border-radius: 8px;
+}
+
+.degradee{
+display: inline-block;
+background-image:-moz-linear-gradient(30deg, blue, white);
+background-image:-webkit-linear-gradient(30deg, white, blue);
+background-image:-o-linear-gradient(30deg, white, blue);
+background-image:linear-gradient(60deg, white, blue);
+border-radius: 8px;
+}
+
+
+.margin-top-sm {
+	margin-top: 1em;
+}
+
+body {
+	background-color: 	#DCDCDC;	
+}
+.banniere  {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
