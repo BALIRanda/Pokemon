@@ -8,7 +8,9 @@
   <link href="style.css" rel="stylesheet" type="text/css">
 
   <body>
+  	<div id="main-content">
 
-<div id="banniere">
-    <img src="images/pokemon-banner.png" alt="pokemonbani" />
-</div>
+	    <div id="banniere">
+	    	<img class="image" src="images/pokemon-banner.png" alt="pokemonbani" />
+		</div>
+		<div>
