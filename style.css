@@ -4,21 +4,26 @@ h1 {
 }
 
 .degrade{
-display: inline-block;
-background-image:-moz-linear-gradient(30deg, red, white);
-background-image:-webkit-linear-gradient(30deg, white, red);
-background-image:-o-linear-gradient(30deg, white, red);
-background-image:linear-gradient(60deg, white, red);
-border-radius: 8px;
+	display: inline-block;
+	background-image:-moz-linear-gradient(30deg, red, white);
+	background-image:-webkit-linear-gradient(30deg, white, red);
+	background-image:-o-linear-gradient(30deg, white, red);
+	background-image:linear-gradient(60deg, white, red);
+	border-radius: 8px;
+	font-style: oblique;	
+	font-size: sans-serif;
+
 }
 
 .degradee{
-display: inline-block;
-background-image:-moz-linear-gradient(30deg, blue, white);
-background-image:-webkit-linear-gradient(30deg, white, blue);
-background-image:-o-linear-gradient(30deg, white, blue);
-background-image:linear-gradient(60deg, white, blue);
-border-radius: 8px;
+	display: inline-block;
+	background-image:-moz-linear-gradient(30deg, blue, white);
+	background-image:-webkit-linear-gradient(30deg, white, blue);
+	background-image:-o-linear-gradient(30deg, white, blue);
+	background-image:linear-gradient(60deg, white, blue);
+	border-radius: 8px;
+	font-style: oblique;
+	font-size: sans-serif;
 }
 
 
@@ -26,12 +31,28 @@ border-radius: 8px;
 	margin-top: 1em;
 }
 
-body {
-	background-color: 	#DCDCDC;	
-}
 .banniere  {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 150px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 100px;
+	height: 169px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+#main-content {
+	background-image:url("images/20998.jpg");
+	background-position: center center;
+	height: 100%;
+	padding: 40px;
+}
+body {
+	height: 100%;
+	margin: 0;
+}
+	
+html {
+	height: 100%
 }
