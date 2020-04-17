@@ -1,26 +1,28 @@
 h1 {
-	color: 	#B22222;
+	color: 	white;
 	width: auto;
 }
-
+#deux {
+	color: white;
+	width: auto;
+}
 .degrade{
 	display: inline-block;
-	background-image:-moz-linear-gradient(30deg, red, white);
-	background-image:-webkit-linear-gradient(30deg, white, red);
-	background-image:-o-linear-gradient(30deg, white, red);
-	background-image:linear-gradient(60deg, white, red);
+	background-color: red;
+	 border-width:1px;
+ 	border-style:dotted;
+ 	border-color:blue;
 	border-radius: 8px;
-	font-style: oblique;	
+	font-style: oblique;
 	font-size: sans-serif;
-
 }
 
 .degradee{
 	display: inline-block;
-	background-image:-moz-linear-gradient(30deg, blue, white);
-	background-image:-webkit-linear-gradient(30deg, white, blue);
-	background-image:-o-linear-gradient(30deg, white, blue);
-	background-image:linear-gradient(60deg, white, blue);
+	background-color: blue;
+	 border-width:1px;
+ 	border-style:dotted;
+ 	border-color:blue;
 	border-radius: 8px;
 	font-style: oblique;
 	font-size: sans-serif;
@@ -34,19 +36,23 @@ h1 {
 .banniere  {
 	border: 1px solid #ddd;
 	border-radius: 4px;
-	padding: 5px;
+	padding: 100px;
 	width: 100px;
 	height: 169px;
-	margin-right: auto;
-	margin-left: auto;
-	
+	background-position: top;
+	background-size: center ;
+
 }
 
 #main-content {
 	background-image:url("images/20998.jpg");
-	background-position: center center;
+	background-position: top;
 	height: 100%;
-	padding: 40px;
+	background-repeat: no-repeat;
+	background-size: center ;
+	margin-right: auto;
+	margin-left: auto;
+
 }
 body {
 	height: 100%;
