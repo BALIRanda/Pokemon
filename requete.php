@@ -26,12 +26,11 @@ if(isset($_POST['nom'], $_POST['number'], $_POST['photos'], $_POST['type'], $_PO
 }
 ?>
 
-
-<h1 style="color:white; text-align:center">Inscrivez votre Pokémon</h1>
-<form style="background-color: white;" action="" method="POST">
-    <div align="center" class="container col-lg-8">
+<form action="" method="POST">
+    <div style="background:white; padding-bottom:20px; padding-top:20px; border-radius: 20px;" align="center" class="container col-lg-6">
         <div class="form-group">
             <div class="form-group col-md-6">
+            <h1 style="color:#566573; font-size:30px">Inscrivez votre Pokémon</h1>
                 <label for="nom">Nom du pokémon :</label>
                 <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Entrez le nom du pokémon" name="nom">
             </div>
