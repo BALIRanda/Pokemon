@@ -8,7 +8,7 @@ if(isset($_POST['number'], $_POST['photos'], $_POST['type'], $_POST['version']))
         $version=htmlspecialchars($_POST['version']);
         $nom=htmlspecialchars($_POST['nom']);
 
-        $req=$mysqli->query("INSERT INTO Pokemon(NumeroPokemon,Image,Type,Version) VALUES('$numero','$photos','$type','$version')");
+        $req=$mysqli->query("INSERT INTO Pokemon(NumeroPokemon,Image,Type,Version) VALUES('$numero','$photos','$type','$version',$nom')");
         $message='Le formulaire a bien été envoyé';
 
     }else{
